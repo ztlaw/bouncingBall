@@ -50,7 +50,7 @@ const bounceDown = anime({
     autoplay: false,
     targets: '#ball' + ballCount,
     translateY: [0, bottom],
-    duration: 600,
+    duration: 500,
     easing: 'easeInQuad',
     complete: () => {
         bounceUp.restart();
