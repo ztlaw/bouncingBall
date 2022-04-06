@@ -1,0 +1,28 @@
+/* container class height/width of the screen */
+.container{
+    background-image: url("court.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    width: 100vw;
+
+    /* Setting position to relative so ball divs can be
+    set to absolute */
+    position: relative;
+}
+
+/* setting height and width of the .ball class */
+.ball{
+    height: 100px;
+    width: 100px;
+
+/* setting the position of the ball to wherever we click on the screen */
+position: absolute;
+}
+
+/* img = child of the .ball class. Width and height are 100%
+of the .ball height and width */
+img{
+height: 100%;
+width: 100%;
+}
